@@ -10,5 +10,6 @@
 	closebtn.addEventListener('click', () => {
 		if (document.querySelector('.mobileNav').classList.contains('show')) {
 			document.querySelector('.mobileNav').classList.remove('show');
+			 document.body.style.overflow="scroll";
 		}
 	});
