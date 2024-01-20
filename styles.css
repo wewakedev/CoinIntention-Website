@@ -43,14 +43,14 @@ a {
 .mobileNav {
 	display: none;
 }
-.mobileNav.show {
-	position: absolute;
-	background: #00092af5;
-	width: 100vw;
-	height: 100vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	.mobileNav.show {
+    position: absolute;
+    background: #00092a;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button.closeMenu {
 	background: transparent;
